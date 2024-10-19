@@ -9,9 +9,6 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "eslintConfig": {
-    "extends": "standard"
-  },
   "dependencies": {
     "lucide-react": "^0.453.0",
     "react": "^18.3.1",

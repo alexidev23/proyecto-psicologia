@@ -17,9 +17,6 @@ export default [
         sourceType: 'module',
       },
     },
-    extends: [
-      './node_modules/standard/eslintrc.json'
-    ],
     settings: { react: { version: '18.3' } },
     plugins: {
       react,
