@@ -1,10 +1,10 @@
 import { useState } from "react"
-import CepramCursos from "./CepramCursos.jsx"
-import RedesSociales from "./RedesSociales.jsx"
+import { CepramCursos } from "./CepramCursos.jsx"
+import { RedesSociales } from "./RedesSociales.jsx"
 import { MapPin } from "lucide-react"
 import { Phone } from "lucide-react"
 import { Globe } from "lucide-react"
-import InfoContacto from "./InfoContacto.jsx"
+import { InfoContacto } from "./InfoContacto.jsx"
 
 export function Cepram () {
   const [activeInfo, setActiveInfo] = useState('cursos')
