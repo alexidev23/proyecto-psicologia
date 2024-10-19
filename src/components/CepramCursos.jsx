@@ -210,7 +210,7 @@ export function CepramCursos() {
             </h2>
             <ul className="list-disc list-inside">
               {categoriaSeleccionada.cursos.map((curso) => (
-                <li key={curso} className="mb-2 list-none flex gap-2 items-center">
+                <li key={curso.name} className="mb-2 list-none flex gap-2 items-center">
                   {curso.icon}
                   {curso.name}
                   </li>
