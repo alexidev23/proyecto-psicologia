@@ -1,10 +1,10 @@
 import { useState } from "react"
-import { InfoContacto } from "./infoContacto"
-import { RedesSociales } from "./RedesSociales"
-import IlliaCursos from "./IlliaCursos"
+import { InfoContacto } from "./infoContacto.jsx"
+import { RedesSociales } from "./RedesSociales.jsx"
 import { MapPin } from "lucide-react"
 import { Globe } from "lucide-react"
 import { Phone } from "lucide-react"
+import { IlliaCursos } from "./IlliaCursos.jsx"
 
 export function ElIllia () {
   const [activeInfo, setActiveInfo] = useState('cursos')

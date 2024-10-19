@@ -1,7 +1,7 @@
-import { Cepram } from './components/Cepram'
-import { ElIllia } from './components/ElIllia'
-import { Header } from './components/Header'
-import { Upami } from './components/Upami'
+import { Cepram } from './components/Cepram.jsx'
+import { ElIllia } from './components/ElIllia.jsx'
+import { Header } from './components/Header.jsx'
+import { Upami } from './components/Upami.jsx'
 
 function App() {
 

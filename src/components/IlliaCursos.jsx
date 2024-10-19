@@ -10,7 +10,7 @@ import { Users } from "lucide-react";
 import { MicVocal } from "lucide-react";
 import { Palette } from "lucide-react";
 
-export default function IlliaCursos() {
+export function IlliaCursos() {
   const categorias = [
     {
       nombre: "Artísticos",

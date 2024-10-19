@@ -1,7 +1,7 @@
 import { useState } from "react"
-import { RedesSociales } from "./RedesSociales"
-import UpamiCursos from "./UpamiCursos"
-import { InfoContactoUpami } from "./InfoContactoUpami"
+import { RedesSociales } from "./RedesSociales.jsx"
+import { InfoContactoUpami } from "./InfoContactoUpami.jsx"
+import { UpamiCursos } from "./UpamiCursos.jsx"
 
 export function Upami () {
   const [activeInfo, setActiveInfo] = useState('cursos')
@@ -50,7 +50,7 @@ export function Upami () {
   ]
 
   const infoContent = {
-    cursos: <UpamiCursos/>,
+    cursos: <UpamiCursos />,
     infoContacto: <InfoContactoUpami />,
     redesSociales: <RedesSociales redes={redesSociales}/>
   }

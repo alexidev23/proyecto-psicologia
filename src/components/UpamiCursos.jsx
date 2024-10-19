@@ -4,7 +4,7 @@ import { CirclePlus } from 'lucide-react'
 import { X } from 'lucide-react'
 
 
-export default function UpamiCursos() {
+export function UpamiCursos() {
   const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(null)
 
   const categorias = [
