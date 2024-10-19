@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { InfoContacto } from "./infoContacto.jsx"
+import { InfoContacto } from "./InfoContacto.jsx"
 import { RedesSociales } from "./RedesSociales.jsx"
 import { MapPin } from "lucide-react"
 import { Globe } from "lucide-react"

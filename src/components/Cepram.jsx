@@ -4,7 +4,7 @@ import RedesSociales from "./RedesSociales.jsx"
 import { MapPin } from "lucide-react"
 import { Phone } from "lucide-react"
 import { Globe } from "lucide-react"
-import InfoContacto from "./infoContacto.jsx"
+import InfoContacto from "./InfoContacto.jsx"
 
 export function Cepram () {
   const [activeInfo, setActiveInfo] = useState('cursos')
