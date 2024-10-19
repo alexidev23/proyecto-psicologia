@@ -49,8 +49,8 @@ export function Cepram () {
   ]
 
   const infoContent = {
-    cursos: <CepramCursos/>,
-    infoContacto: <InfoContacto InfoContacto={infoContacto} />,
+    cursos: <CepramCursos />,
+    infoContacto: <InfoContacto contactos={infoContacto} />,
     redesSociales: <RedesSociales redes={redesSociales} />
   }
 

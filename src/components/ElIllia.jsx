@@ -52,7 +52,7 @@ export function ElIllia () {
 
   const infoContent = {
     cursos: <IlliaCursos />,
-    infoContacto: <InfoContacto InfoContacto={infoContacto} />,
+    infoContacto: <InfoContacto contactos={infoContacto} />,
     redesSociales: <RedesSociales redes={redesSociales} />
   }
   return (
