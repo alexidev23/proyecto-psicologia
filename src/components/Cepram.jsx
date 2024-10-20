@@ -55,7 +55,7 @@ export function Cepram () {
 
   return (
     <section className="relative">
-      <div className="h-[350px] w-full bg-cepram bg-no-repeat bg-cover bg-center absolute top-0 -z-10"></div>
+      <div className="h-[350px] w-full bg-cepram bg-no-repeat bg-cepram-size bg-bottom absolute top-0 -z-10"></div>
       <div className="h-[350px] bg-cepram-color flex items-center justify-center gap-10">
         <div className="mx-10">
           <img src={CepramIcono} alt="Icono de CEPRAM" height={180} width={180} />

@@ -57,13 +57,13 @@ export function Upami () {
   }
   return (
     <section className="relative">
-      <div className="h-[350px] w-full bg-cepram bg-no-repeat bg-cover bg-center absolute top-0 -z-10"></div>
+      <div className="h-[350px] w-full bg-upami bg-no-repeat bg-cover bg-center absolute top-0 -z-10"></div>
       <div className="h-[350px] bg-upami-color flex items-center justify-center gap-10">
         <div className="mx-10 flex items-center gap-4">
           <img src={UpamiIcono} alt="Icono de CEPRAM" height={100} width={100} />
-          <h1 className="text-darkBlue text-5xl font-bold">UPAMI</h1>
+          <h1 className="text-5xl font-bold text-white">UPAMI</h1>
         </div>
-        <div className="w-[650px]">
+        <div className="w-[650px] text-white">
           <h2 className="text-4xl uppercase text-center mb-8 font-bold">UPAMI - Talleres y cursos para adultos mayores</h2>
           <p className="font-medium text-lg">
             Programa que presenta diferentes talleres y cursos universitarios que se llevan a cabo por el convenio existente entre PAMI (Programa de Asistencia Médica Integral) y la UNC (Universidad Nacional de Córdoba). Las inscripciones se hacen de manera virtual a través de la plataforma de inscripciones de extensión, los cursos están dirigidos tanto hacia afiliados como no afiliados a PAMI, son gratuitos y no requieren de estudios previos
