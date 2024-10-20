@@ -34,21 +34,21 @@ export function Upami () {
       img: 'facebook-icon.svg',
       name: 'Secretaría de Extensión - UNC',
       url: 'https://www.facebook.com/unc.extension/',
-      color: 'blue-700'
+      color: '#1d4ed8'
     },
     {
       id: 5,
       img: 'instagram_dark-icon.svg',
       name: 'unc.extension',
       url: 'https://www.instagram.com/unc.extension?igsh=cWE1MGVnNmxibWxl',
-      color: 'blue-700'
+      color: '#1d4ed8'
     },
     {
       id: 6,
       img: 'gmail-icon.svg',
       name: 'personasmayores@extension.unc.edu.ar',
       url: 'mailto:personasmayores@extension.unc.edu.ar',
-      color: 'blue-700'
+      color: '#1d4ed8'
     }
   ]
 
