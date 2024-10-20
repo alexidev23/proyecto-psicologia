@@ -2,16 +2,16 @@ export function Header () {
   return (
     <header className="h-screen w-full bg-header bg-no-repeat bg-cover bg-center">
     <div className="bg-header-color h-full flex flex-col items-center py-20 lg:py-0 lg:justify-center">
-      <div className="w-[310px] lg:w-[650px] my-4 lg:my-10 rounded-xl py-2 lg:py-4 px-5 flex items-center justify-between bg-white text-center">
+      <div className="w-[310px] md:w-[520px] lg:w-[650px] my-4 lg:my-10 rounded-xl py-2 md:py-4 px-5 flex items-center justify-between bg-white text-center">
         <img 
           src="/iconoPage.svg"
           alt="Icono de la web"
           className="h-20"
         />
-        <h1 className="text-lg lg:text-4xl font-bold">Espacios de envejecimiento activo</h1>
+        <h1 className="text-lg md:text-4xl font-bold">Espacios de envejecimiento activo</h1>
       </div>
 
-      <div className="w-full lg:w-[650px] mx-auto font-medium text-lg lg:text-xl text-texto px-4 lg:px-6">
+      <div className="w-full md:w-[540px] lg:w-[650px] mx-auto font-medium text-lg md:text-2xl md:mt-10 lg:mt-0 lg:text-xl text-texto px-4 lg:px-6">
         <p className="mb-2">
           La finalidad de esta pagina esta destinada a brindar información general sobre talleres y capacitaciones para las personas mayores que se dictan en diferentes instituciones en la ciudad de Cordoba capital.
         </p>
