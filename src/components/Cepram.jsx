@@ -61,14 +61,14 @@ export function Cepram () {
 
   return (
     <section className="relative">
-      <div className="h-[350px] w-full bg-cepram bg-no-repeat bg-cepram-size bg-bottom absolute top-0 -z-10"></div>
-      <div className="h-[350px] bg-cepram-color flex items-center justify-center gap-10">
+      <div className="h-[500px] lg:h-[350px] w-full bg-cepram bg-no-repeat bg-cepram-size bg-bottom absolute top-0 -z-10"></div>
+      <div className="h-[500px] lg:h-[350px] bg-cepram-color flex flex-col lg:flex-row items-center justify-center gap-10">
         <div className="mx-10">
-          <img src={CepramIcono} alt="Icono de CEPRAM" height={220} width={220} />
+          <img src={CepramIcono} alt="Icono de CEPRAM" height={220} width={220} className="h-36" />
         </div>
-        <div className="w-[650px] text-white">
-          <h2 className="text-4xl uppercase text-center mb-8 font-bold">Centro de promoción del adulto mayor</h2>
-          <p className="font-medium text-lg">
+        <div className="lg:w-[650px] text-white">
+          <h2 className="text-2xl lg:text-4xl uppercase text-center mb-8 font-bold">Centro de promoción del adulto mayor</h2>
+          <p className="font-medium text-lg px-6 lg:px-0">
             Espacio socio recreativo y cultural, dependiente de la caja de jubilaciones, pensiones y retiros de la provincia de córdoba.
           </p>
         </div>
@@ -76,19 +76,19 @@ export function Cepram () {
       <div className="w-full flex justify-between">
         <button
           onClick={() => setActiveInfo('cursos')}
-          className={`w-full py-4 text-white text-xl font-medium uppercase ${activeInfo === 'cursos' ? 'bg-purple-600' : 'bg-cepram-color'} hover:bg-purple-400 transition-colors`}
+          className={`w-full py-4 text-white text-lg lg:text-xl font-medium uppercase ${activeInfo === 'cursos' ? 'bg-purple-600' : 'bg-cepram-color'} hover:bg-purple-400 transition-colors`}
         >
           Cursos
         </button>
         <button
           onClick={() => setActiveInfo('infoContacto')}
-          className={`w-full py-4 text-white text-xl font-medium uppercase ${activeInfo === 'infoContacto' ? 'bg-purple-600' : 'bg-cepram-color'} hover:bg-purple-400 transition-colors`}
+          className={`w-full py-4 text-white text-lg lg:text-xl font-medium uppercase ${activeInfo === 'infoContacto' ? 'bg-purple-600' : 'bg-cepram-color'} hover:bg-purple-400 transition-colors`}
         >
           Info de contacto
         </button>
         <button
           onClick={() => setActiveInfo('redesSociales')}
-          className={`w-full py-4 text-white text-xl font-medium uppercase ${activeInfo === 'redesSociales' ? 'bg-purple-600' : 'bg-cepram-color'} hover:bg-purple-400 transition-colors`}
+          className={`w-full py-4 text-white text-lg lg:text-xl font-medium uppercase ${activeInfo === 'redesSociales' ? 'bg-purple-600' : 'bg-cepram-color'} hover:bg-purple-400 transition-colors`}
         >
           Redes Sociales
         </button>
