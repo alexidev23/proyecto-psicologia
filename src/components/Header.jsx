@@ -1,7 +1,7 @@
 export function Header () {
   return (
     <header className="h-screen w-full bg-header bg-no-repeat bg-cover bg-center">
-    <div className="bg-header-color h-full pt-28">
+    <div className="bg-header-color h-full py-20">
       <div className="w-[650px] rounded-xl py-4 px-5 flex items-center justify-between bg-white text-center m-auto">
         <img 
           src="/iconoPage.svg"
