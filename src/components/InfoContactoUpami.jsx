@@ -15,7 +15,7 @@ export function InfoContactoUpami () {
           </a>
           <div>
             <div className="flex flex-col lg:flex-row gap-4">
-              <a href="https://www.pami.org.ar/" target="_blank" rel="noopener noreferrer" className="flex flex-col lg:flex-row gap-2 items-center hover:text-blue-600">
+              <a href="https://www.pami.org.ar/" target="_blank" rel="noopener noreferrer" className="flex flex-col lg:flex-row gap-2 items-center hover:text-blue-600 lg:w-[200px]">
                 <Globe />
                 Pagina PAMI
               </a>
