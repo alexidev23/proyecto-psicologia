@@ -8,46 +8,48 @@ export function Upami () {
   const [activeInfo, setActiveInfo] = useState('cursos')
 
   const redesSociales = [
-    {
-      id: 1,
-      img: 'facebook-icon.svg',
-      name: 'PAMI',
-      url: 'https://www.facebook.com/pami.org.ar/'
-    },
-    {
-      id: 2,
-      img: 'instagram_dark-icon.svg',
-      name: 'pami.org.ar',
-      url: 'https://www.instagram.com/pami.org.ar?igsh=dDZ1bW44MHB6NXFh '
-    },
-    {
-      id: 3,
-      img: 'gmail-icon.svg',
-      name: 'consultaspami@pami.org.ar',
-      url: 'mailto:consultaspami@pami.org.ar'
-    },
+    // {
+    //   id: 1,
+    //   img: 'facebook-icon.svg',
+    //   name: 'PAMI',
+    //   url: 'https://www.facebook.com/pami.org.ar/',
+    //   color: 'blue-700'
+    // },
+    // {
+    //   id: 2,
+    //   img: 'instagram_dark-icon.svg',
+    //   name: 'pami.org.ar',
+    //   url: 'https://www.instagram.com/pami.org.ar?igsh=dDZ1bW44MHB6NXFh',
+    //   color: 'blue-700'
+    // },
+    // {
+    //   id: 3,
+    //   img: 'gmail-icon.svg',
+    //   name: 'consultaspami@pami.org.ar',
+    //   url: 'mailto:consultaspami@pami.org.ar',
+    //   color: 'blue-700'
+    // },
     {
       id: 4,
       img: 'facebook-icon.svg',
       name: 'Secretaría de Extensión - UNC',
-      url: 'https://www.facebook.com/unc.extension/'
+      url: 'https://www.facebook.com/unc.extension/',
+      color: 'blue-700'
     },
     {
       id: 5,
       img: 'instagram_dark-icon.svg',
       name: 'unc.extension',
-      url: 'https://www.instagram.com/unc.extension?igsh=cWE1MGVnNmxibWxl '
+      url: 'https://www.instagram.com/unc.extension?igsh=cWE1MGVnNmxibWxl',
+      color: 'blue-700'
     },
     {
       id: 6,
       img: 'gmail-icon.svg',
       name: 'personasmayores@extension.unc.edu.ar',
-      url: 'mailto:personasmayores@extension.unc.edu.ar'
+      url: 'mailto:personasmayores@extension.unc.edu.ar',
+      color: 'blue-700'
     }
-
-    
-
-
   ]
 
   const infoContent = {

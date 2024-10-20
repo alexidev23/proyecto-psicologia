@@ -4,6 +4,7 @@ import { IlliaCursos } from "./IlliaCursos.jsx"
 import { InfoContacto } from "./InfoContacto.jsx"
 import { RedesSociales } from "./RedesSociales.jsx"
 import { MapPin, Globe, Phone } from "lucide-react"
+import { FaWhatsapp } from "react-icons/fa"
 
 export function ElIllia () {
   const [activeInfo, setActiveInfo] = useState('cursos')
@@ -13,19 +14,22 @@ export function ElIllia () {
       id: 1,
       img: 'facebook-icon.svg',
       name: 'El illia',
-      url: 'https://www.facebook.com/elilliaok/'
+      url: 'https://www.facebook.com/elilliaok/',
+      color: 'green-900'
     },
     {
       id: 2,
       img: 'instagram_dark-icon.svg',
       name: 'elilliaok',
-      url: 'https://www.instagram.com/elilliaok/?hl=es-la'
+      url: 'https://www.instagram.com/elilliaok/?hl=es-la',
+      color: 'green-900'
     },
     {
       id: 3,
       img: 'gmail-icon.svg',
       name: 'elillia@cba.gov.ar',
-      url: 'mailto:elillia@cba.gov.ar'
+      url: 'mailto:elillia@cba.gov.ar',
+      color: 'green-900'
     }
   ]
 
@@ -33,19 +37,30 @@ export function ElIllia () {
     {
       id: 1,
       icon: <MapPin />,
-      title: 'Avenida General Paz 539'
-    },{
+      title: 'Avenida General Paz 539',
+      url: 'https://maps.app.goo.gl/2bsGLCNpnMWxk5zb6',
+      color: 'green-900'
+    },
+    {
       id: 2,
       icon: <Globe />,
-      title: 'https://elillia.cba.gov.ar/Portal/'
-    },{
+      title: 'https://elillia.cba.gov.ar/Portal/',
+      url: 'https://elillia.cba.gov.ar/Portal/',
+      color: 'green-900'
+    },
+    {
       id: 3,
       icon: <Phone />,
-      title: '0810 122 2252 Opción 4'
-    },{
+      title: '0810 122 2252 (Marcar la opción 4)',
+      url: 'tel:+5408101222252',
+      color: 'green-900'
+    },
+    {
       id: 4,
-      icon: <Phone />,
-      title: '3518082187'
+      icon: <FaWhatsapp size={30} />,
+      title: '3518082187',
+      url: 'tel:+543518082187',
+      color: 'green-900'
     }
   ]
 
