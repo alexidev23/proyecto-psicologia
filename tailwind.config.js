@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'header': 'url("./src/assets/img/foto2.jpg")',
-        'cepram': 'url("./src/assets/img/foto1.jpg")',
+        'header': 'url("./foto2.jpg")',
+        'cepram': 'url("./foto1.jpg")',
       },
       backgroundColor: {
         'header-color': 'rgba(25, 77, 65, 0.712);',
