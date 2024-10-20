@@ -5,50 +5,53 @@ import { MapPin } from "lucide-react";
 export function InfoContactoUpami () {
   return (
     <div>
-      <h3>se puede contactar de dos maneras, tanto a través de PAMI:</h3>
-        
-      <div>
-        <h4>PAMI</h4>
-        <div className="flex">
-          <div className="flex">
+      <h3 className="font-medium">Se puede contactar de dos maneras, tanto a través de PAMI:</h3>
+      <div className="px-6">
+        <h4 className="font-bold text-2xl mt-4">PAMI:</h4>
+        <div className="flex flex-col gap-3">
+          <a href="https://maps.app.goo.gl/19THgGU2uAF8kwJn7" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 mt-4 hover:text-blue-600">
             <MapPin />
-            <span>General paz 370, prestaciones sociales en planta baja</span>
-          </div>
-          <div className="flex">
-            <Globe />
-            <div>
-              <span>
-                https://www.pami.org.ar/ (ingresando a la pagina oficial de PAMI, se accede a través de la opción servicios, luego en          Actividades y Programas preventivos; por último haciendo click en Cursos Universitarios UPAMI)
-              </span>
-              <span>
-                https://www.pami.org.ar/talleresycursos/cursos-upami (ingresando directamente a este link)
-              </span>
+            <span>General paz 370 (Prestaciones sociales en planta baja)</span>
+          </a>
+          <div>
+            <div className="flex gap-4">
+              <a href="https://www.pami.org.ar/" target="_blank" rel="noopener noreferrer" className="flex gap-2 items-center hover:text-blue-600">
+                <Globe />
+                https://www.pami.org.ar/
+              </a>
+              <div>
+                (Ingresando a la pagina oficial de PAMI, se accede a través de la opción servicios, luego en Actividades y Programas preventivos; por último haciendo click en Cursos Universitarios UPAMI)
+              </div>
             </div>
+            <a href="https://www.pami.org.ar/talleresycursos/cursos-upami" target="_blank" rel="noopener noreferrer" className="flex gap-2 items-center mt-4 hover:text-blue-600">
+              <Globe />
+              https://www.pami.org.ar/talleresycursos/cursos-upami (ingresando directamente a este link)
+            </a>
           </div>
-          <div className="flex">
+          <a href="tel:+543514131600" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 mt-4 hover:text-blue-600">
             <Phone />
             <span>3514131600</span>
-          </div>
+          </a>
         </div>
       </div>
 
-      <div className="mt-10">
-        <p>
-          Como también a través del PROGRAMA PERSONAS MAYORES DE LA SECRETARÍA DE EXTENSIÓN DE LA UNC UNC (proyecto de fortalecimiento institucional, de la secretaría de extensión universitaria de la UNC)
+      <div className="mt-6 px-6">
+        <p className="font-medium">
+          Como también a través del PROGRAMA PERSONAS MAYORES DE LA SECRETARÍA DE EXTENSIÓN DE LA UNC UNC (proyecto de fortalecimiento institucional, de la secretaría de extensión universitaria de la UNC):
         </p>
-        <div className="flex mt-6">
-          <div className="flex">
+        <div className="mt-4">
+          <a href="https://maps.app.goo.gl/w6ADCXrJ6Wn3eC5N6" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-blue-600">
             <MapPin />
-            <span>Pabellón Argentina, primer piso, Ala derecha</span>
-          </div>
-          <div className="flex">
+            <span>Pabellón Argentina (Primer piso, a la derecha)</span>
+          </a>
+          <a href="" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 mt-4 hover:text-blue-600">
             <Globe />
-            <span>https://pfi.seu.unc.edu.ar (ingresar dentro de la sección programa Adultos Mayores)</span>
-          </div>
-          <div className="flex">
+            <span>https://pfi.seu.unc.edu.ar (Ingresar dentro de la sección programa Adultos Mayores)</span>
+          </a>
+          <a href="tel:+545353786" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 mt-4 hover:text-blue-600">
             <Phone />
             <span>5353786</span>
-          </div>
+          </a>
         </div>
       </div>
     </div>
