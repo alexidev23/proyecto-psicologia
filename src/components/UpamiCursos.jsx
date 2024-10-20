@@ -1,120 +1,227 @@
-import { useState } from 'react'
-import { Smartphone, Book, Users, Flower2, Music, Utensils, Palette, Brain, Music2, Dumbbell } from 'lucide-react'
-import { CirclePlus } from 'lucide-react'
-import { X } from 'lucide-react'
+import { Smartphone, Book, Users, Flower2, Music, Utensils, Palette, Brain, Music2, Dumbbell, ServerCog, Notebook, Guitar, Monitor, Salad, Speech, Plus, CirclePlus} from 'lucide-react'
+import { FaAppleAlt, FaBookReader, FaChess, FaMusic, FaReadme } from 'react-icons/fa'
+import { FaPeopleGroup } from 'react-icons/fa6'
+import { GiBrain, GiGymBag, GiMeditation, GiWool } from 'react-icons/gi'
+import { GrYoga } from 'react-icons/gr'
+import { IoMusicalNotesOutline } from 'react-icons/io5'
+import { MdDesignServices, MdOutlinePsychology, MdOutlineYard } from 'react-icons/md'
+import { PiCookingPotFill } from 'react-icons/pi'
+import { TbAbc } from 'react-icons/tb'
 
 
 export function UpamiCursos() {
-  const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(null)
 
   const categorias = [
     {
-      nombre: "Tecnología",
-      icon: Smartphone,
-      cursos: ["Uso de tecnología", "Computación"]
-    },
-    {
-      nombre: "Narrativa",
-      icon: Book,
-      cursos: ["Alfabetización", "Literatura", "Escritura", "Lectura y narración"]
-    },
-    {
-      nombre: "Otros",
-      icon: Users,
-      cursos: ["Servicios y prestaciones de PAMI", "Derechos de las personas mayores", "Ciudadanía", "Fortalecimiento de las organizaciones de las personas mayores"]
-    },
-    {
       nombre: "Jardinería",
       icon: Flower2,
-      cursos: ["Huerta"]
+      cursos: [
+        {
+          icon: <MdOutlineYard />,
+          name:"Huerta"
+        }
+      ]
     },
     {
       nombre: "Música y canto",
       icon: Music,
-      cursos: ["Coro"]
-    },
-    {
-      nombre: "Gastronomía",
-      icon: Utensils,
-      cursos: ["Arte culinario", "Nutrición", "Alimentación saludable"]
-    },
-    {
-      nombre: "Teatro y arte",
-      icon: Palette,
-      cursos: ["Tejido", "Pintura", "Artesanías", "Manualidades"]
+      cursos: [
+        {
+          icon: <FaPeopleGroup />,
+          name: "Coro"
+        }
+      ]
     },
     {
       nombre: "Juegos de mesa",
       icon: CirclePlus,
-      cursos: ["Ajedrez"]
-    },
-    {
-      nombre: "Memoria",
-      icon: Brain,
-      cursos: ["Estimulación cognitiva", "Psicología", "Reflexión"]
+      cursos: [
+        {
+          icon: <FaChess />,
+          name:"Ajedrez"
+        }
+      ]
     },
     {
       nombre: "Danza",
       icon: Music2,
-      cursos: ["Folklore", "Tango"]
+      cursos: [
+        {
+          icon: <Guitar />,
+          name: "Folklore"
+        }, 
+        {
+          icon: <IoMusicalNotesOutline />,
+          name: "Tango"
+        }
+      ]
+    },
+    {
+      nombre: "Tecnología",
+      icon: Smartphone,
+      cursos: [
+        {
+          icon: <ServerCog />,
+          name: "Uso de tecnología"
+        }, 
+          {
+          icon: <Monitor />,
+          name: "Computación"
+        }
+      ]
+    },
+    {
+      nombre: "Narrativa",
+      icon: Book,
+      cursos: [
+        {
+          icon: <TbAbc />,
+          name: "Alfabetización"
+        }, 
+        {
+          icon: <FaBookReader />,
+          name: "Literatura"
+        }, 
+        {
+          icon:<Notebook />,
+          name:"Escritura"
+        }, 
+        {
+          icon: <FaReadme />,
+          name: "Lectura y narración"
+        }
+      ]
+    },    
+    {
+      nombre: "Gastronomía",
+      icon: Utensils,
+      cursos: [
+        {
+          icon:<PiCookingPotFill />,
+          name:"Arte culinario"
+        }, 
+        {
+          icon: <FaAppleAlt />,
+          name:"Nutrición"
+        }, 
+        {
+          icon: <Salad />,
+          name: "Alimentación salludable"
+        }
+      ]
+    },
+    {
+      nombre: "Teatro y arte",
+      icon: Palette,
+      cursos: [
+        {
+          icon: <GiWool />,
+          name: "Tejido"
+        }, 
+        {
+          icon: <Palette />,
+          name: "Pintura"
+        }, 
+        {
+          icon: <MdDesignServices />,
+          name: "Artesanías"
+        }, 
+        {
+          icon: <MdDesignServices />,
+          name: "Manualidades"
+        }
+      ]
+    },
+    {
+      nombre: "Memoria",
+      icon: Brain,
+      cursos: [
+        {
+          icon: <GiBrain />,
+          name: "Estimulación cognitiva"
+        }, 
+        {
+          icon: <MdOutlinePsychology />,
+          name: "Psicología"
+        }, 
+        {
+          icon: <Speech />,
+          name: "Reflexión"
+        }
+      ]
+    },
+    {
+      nombre: "Otros",
+      icon: Users,
+      cursos: [
+        {name: "Servicios y prestaciones de PAMI"}, 
+        {name: "Derechos de las personas mayores"}, 
+        {name: "Ciudadanía"}, 
+        {name: "Fortalecimiento de las organizaciones de las personas mayores"}]
     },
     {
       nombre: "Gimnasia",
       icon: Dumbbell,
-      cursos: ["Actividad física", "Gimnasia", "Zumba", "Yoga", "Relajación"]
+      cursos: [
+        {
+          icon: <Dumbbell />, 
+          name:"Actividad física"
+        }, 
+        {
+          icon: <GiGymBag />,
+          name: "Gimnasia"
+        }, 
+        {
+          icon: <FaMusic />,
+          name: "Zumba"
+        }, 
+        {
+          icon: <GrYoga />,
+          name: "Yoga"
+        }, 
+        {
+          icon: <GiMeditation />,
+          name: "Relajación"
+        }
+      ]
     }
   ]
 
-
-  const handleCategoriaClick = (categoria) => {
-    setCategoriaSeleccionada(categoria)
-  }
-
-  const cerrarPanel = () => {
-    setCategoriaSeleccionada(null)
-  }
-
   return (
     <div className="container mx-auto p-4">
-      <h4 className="text-3xl font-bold text-center mb-8">La modalidad de los talleres que se brindan es presencial, en todos los casos:</h4>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-4">
+      <h2 className="text-2xl font-medium text-center mb-8">
+        La modalidad de los talleres que se brindan es <span className='font-bold'>presencial</span>, en todos los casos
+      </h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {categorias.map((categoria) => (
-          <button
-            key={categoria.nombre}
-            onClick={() => handleCategoriaClick(categoria)}
-            className={`flex flex-col items-center justify-center p-4 rounded-lg transition-all duration-300 ${
-              categoriaSeleccionada?.nombre === categoria.nombre
-                ? 'bg-blue-600 text-white'
-                : 'bg-gray-100 hover:bg-gray-200'
-            }`}
-          >
-            <categoria.icon className="w-12 h-12 mb-2" />
-            <span className="text-center text-sm">{categoria.nombre}</span>
-          </button>
-        ))}
-      </div>
-      {categoriaSeleccionada && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4">
-          <div className="bg-white rounded-lg p-6 max-w-md w-full relative">
-            <button
-              onClick={cerrarPanel}
-              className="absolute top-2 right-2 text-gray-500 hover:text-gray-700"
-              aria-label="Cerrar panel"
-            >
-              <X className="w-6 h-6" />
-            </button>
-            <h2 className="text-2xl font-bold mb-4 flex items-center">
-              <categoriaSeleccionada.icon className="w-6 h-6 mr-2" />
-              {categoriaSeleccionada.nombre}
-            </h2>
-            <ul className="list-disc list-inside">
-              {categoriaSeleccionada.cursos.map((curso) => (
-                <li key={curso} className="mb-2">{curso}</li>
-              ))}
-            </ul>
+          <div key={categoria.nombre} className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className="bg-darkBlue text-white p-4">
+              <h2 className="text-xl font-semibold flex items-center">
+                <categoria.icon className="mr-2 h-6 w-6" />
+                {categoria.nombre}
+              </h2>
+            </div>
+            <div className="p-4">
+              <div className="grid grid-cols-2 gap-2">
+                {categoria.cursos.map((curso) => (
+                  <div key={curso.name} className="bg-gray-100 rounded p-2 text-center text-sm flex items-center gap-2">
+                    {curso.icon}
+                    {curso.name}
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
+        ))}
+        <div className='flex items-center justify-center'>
+          <a href='#' target="_blank" rel="noopener noreferrer" className="bg-darkBlue text-white p-4 h-20 rounded-full flex items-center justify-center w-full">
+            <h2 className="text-2xl font-semibold flex items-center gap-2">
+              <Plus size={30} />
+              Mas informacion
+            </h2>
+          </a>
         </div>
-      )}
+      </div>
     </div>
   )
 }

@@ -1,6 +1,5 @@
-import { useState } from 'react'
 import { Brain, Heart, Palette, Coffee, Dumbbell, Smartphone, Languages, Library, MemoryStick, Speech, Smile, CirclePlus,
-  MessageCircle, Theater, Mic, Camera, ScrollText, FileMusic, Video, ChefHat, BicepsFlexed, SmartphoneIcon, Laptop } from 'lucide-react'
+  MessageCircle, Theater, Mic, Camera, ScrollText, FileMusic, Video, ChefHat, BicepsFlexed, SmartphoneIcon, Laptop, Drama, Plus} from 'lucide-react'
 import { MdMuseum } from 'react-icons/md'
 import { FaSwimmer, FaYinYang } from 'react-icons/fa'
 import { GiMeditation } from 'react-icons/gi'
@@ -8,11 +7,8 @@ import BanderaPortugal from '../assets/img/banderas/pt.png'
 import BanderaEEUU from '../assets/img/banderas/us.png'
 import BanderaItalia from '../assets/img/banderas/it.png'
 import BanderaFrancia from '../assets/img/banderas/fr.png'
-import { Drama } from 'lucide-react'
-import { X } from 'lucide-react'
 
 export function CepramCursos() {
-  const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(null)
 
   const categorias = [
     {
@@ -168,57 +164,41 @@ export function CepramCursos() {
     }
   ]
 
-  const handleCategoriaClick = (categoria) => {
-    setCategoriaSeleccionada(categoria)
-  }
-
-  const cerrarPanel = () => {
-    setCategoriaSeleccionada(null)
-  }
-
   return (
     <div className="container mx-auto p-4">
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-4">
+      <h2 className="text-2xl font-medium text-center mb-8">
+        Los talleres que brinda se pueden cursar de manera <span className='font-bold'>presencial</span> o <span className='font-bold'>virtual</span>
+      </h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {categorias.map((categoria) => (
-          <button
-            key={categoria.nombre}
-            onClick={() => handleCategoriaClick(categoria)}
-            className={`flex flex-col items-center justify-center p-4 rounded-lg transition-all duration-300 ${
-              categoriaSeleccionada?.nombre === categoria.nombre
-                ? 'bg-cepram-color text-white'
-                : 'bg-gray-100 hover:bg-purple-200'
-            }`}
-          >
-            <categoria.icon className="w-12 h-12 mb-2" />
-            <span className="text-center text-sm">{categoria.nombre}</span>
-          </button>
-        ))}
-      </div>
-      {categoriaSeleccionada && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4">
-          <div className="bg-white rounded-lg p-6 max-w-md w-full relative">
-            <button
-              onClick={cerrarPanel}
-              className="absolute top-2 right-2 text-gray-500 hover:text-gray-700"
-              aria-label="Cerrar panel"
-            >
-              <X className="w-6 h-6" />
-            </button>
-            <h2 className="text-2xl font-bold mb-4 flex items-center">
-              <categoriaSeleccionada.icon className="w-6 h-6 mr-2" />
-              {categoriaSeleccionada.nombre}
-            </h2>
-            <ul className="list-disc list-inside">
-              {categoriaSeleccionada.cursos.map((curso) => (
-                <li key={curso.name} className="mb-2 list-none flex gap-2 items-center">
-                  {curso.icon}
-                  {curso.name}
-                  </li>
-              ))}
-            </ul>
+          <div key={categoria.nombre} className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className="bg-cepram-color text-white p-4">
+              <h2 className="text-xl font-semibold flex items-center">
+                <categoria.icon className="mr-2 h-6 w-6" />
+                {categoria.nombre}
+              </h2>
+            </div>
+            <div className="p-4">
+              <div className="grid grid-cols-2 gap-2">
+                {categoria.cursos.map((curso) => (
+                  <div key={curso.name} className="bg-gray-100 rounded p-2 text-center text-sm flex items-center gap-2">
+                    {curso.icon}
+                    {curso.name}
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
+        ))}
+        <div className='flex items-center justify-center'>
+          <a href='#' target="_blank" rel="noopener noreferrer" className="bg-cepram-color text-white p-4 h-20 rounded-full flex items-center justify-center w-full">
+            <h2 className="text-2xl font-semibold flex items-center gap-2">
+              <Plus size={30} />
+              Mas informacion
+            </h2>
+          </a>
         </div>
-      )}
+      </div>
     </div>
   )
 }
