@@ -14,21 +14,21 @@ export function Cepram () {
       img: 'facebook-icon.svg',
       name: 'CEPRAM',
       url: 'https://www.facebook.com/cepram',
-      color: 'purple-950'
+      color: '#3b0764'
     },
     {
       id: 2,
       img: 'instagram_dark-icon.svg',
       name: 'cepramcba',
       url: 'https://www.instagram.com/cepramcba/',
-      color: 'purple-950'
+      color: '#3b0764'
     },
     {
       id: 3,
       img: 'gmail-icon.svg',
       name: 'cepramcordoba@gmail.com',
       url: 'mailto:cepramcordoba@gmail.com',
-      color: 'purple-950'
+      color: '#3b0764'
     }
   ]
 
@@ -38,21 +38,21 @@ export function Cepram () {
       icon: <MapPin />,
       title: 'David Luque 430 Barrio General Paz',
       url: 'https://maps.app.goo.gl/dpk9D6atd48iHYTq6',
-      color: 'purple-950'
+      color: '#3b0764'
     }, 
     {
       id: 2,
       icon: <Globe />,
       title: 'https://cepram.org.ar',
       url: 'https://cepram.org.ar/',
-      color: 'purple-950'
+      color: '#3b0764'
     },
     {
       id: 3,
       icon: <Phone />,
       title: '351-8183 922',
       url: 'tel:+543518183922',
-      color: 'purple-950'
+      color: '#3b0764'
     }
   ]
 
