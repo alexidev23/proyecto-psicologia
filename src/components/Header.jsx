@@ -1,6 +1,6 @@
 export function Header () {
   return (
-    <header className="h-screen w-full bg-header bg-no-repeat bg-cover bg-center">
+    <header className="sm:h-auto lg:h-screen w-full bg-header bg-no-repeat bg-cover bg-center">
     <div className="bg-header-color h-full flex flex-col items-center py-20 lg:py-0 lg:justify-center">
       <div className="w-[310px] md:w-[520px] lg:w-[650px] my-4 lg:my-10 rounded-xl py-2 md:py-4 px-5 flex items-center justify-between bg-white text-center">
         <img 
