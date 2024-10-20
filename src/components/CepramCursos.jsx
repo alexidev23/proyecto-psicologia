@@ -191,7 +191,7 @@ export function CepramCursos() {
           </div>
         ))}
         <div className='flex items-center justify-center'>
-          <a href='#' target="_blank" rel="noopener noreferrer" className="bg-cepram-color text-white p-4 h-20 rounded-full flex items-center justify-center w-full">
+          <a href='https://cepram.org.ar/cursos-y-talleres/' target="_blank" rel="noopener noreferrer" className="bg-cepram-color text-white p-4 h-20 rounded-full flex items-center justify-center w-full">
             <h2 className="text-2xl font-semibold flex items-center gap-2">
               <Plus size={30} />
               Mas informacion
