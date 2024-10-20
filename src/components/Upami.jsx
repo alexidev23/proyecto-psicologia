@@ -13,21 +13,21 @@ export function Upami () {
     //   img: 'facebook-icon.svg',
     //   name: 'PAMI',
     //   url: 'https://www.facebook.com/pami.org.ar/',
-    //   color: 'blue-700'
+    //   color: '#1d4ed8'
     // },
     // {
     //   id: 2,
     //   img: 'instagram_dark-icon.svg',
     //   name: 'pami.org.ar',
     //   url: 'https://www.instagram.com/pami.org.ar?igsh=dDZ1bW44MHB6NXFh',
-    //   color: 'blue-700'
+    //   color: '#1d4ed8'
     // },
     // {
     //   id: 3,
     //   img: 'gmail-icon.svg',
     //   name: 'consultaspami@pami.org.ar',
     //   url: 'mailto:consultaspami@pami.org.ar',
-    //   color: 'blue-700'
+    //   color: '#1d4ed8'
     // },
     {
       id: 4,
