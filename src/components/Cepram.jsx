@@ -1,10 +1,9 @@
+import CepramIcono from "../assets/img/icons/cepram-icono.png"
 import { useState } from "react"
 import { CepramCursos } from "./CepramCursos.jsx"
-import { RedesSociales } from "./RedesSociales.jsx"
-import { MapPin } from "lucide-react"
-import { Phone } from "lucide-react"
-import { Globe } from "lucide-react"
 import { InfoContacto } from "./InfoContacto.jsx"
+import { RedesSociales } from "./RedesSociales.jsx"
+import { MapPin, Phone, Globe } from "lucide-react"
 
 export function Cepram () {
   const [activeInfo, setActiveInfo] = useState('cursos')
@@ -59,15 +58,12 @@ export function Cepram () {
       <div className="h-[350px] w-full bg-cepram bg-no-repeat bg-cover bg-center absolute top-0 -z-10"></div>
       <div className="h-[350px] bg-cepram-color flex items-center justify-center gap-10">
         <div className="mx-10">
-          <img src="/cepram-icono.png" alt="Icono de CEPRAM" height="180" width="180" />
+          <img src={CepramIcono} alt="Icono de CEPRAM" height={180} width={180} />
         </div>
         <div className="w-[650px]">
           <h2 className="text-4xl uppercase text-center mb-8 font-bold">Centro de promoción del adulto mayor</h2>
           <p className="font-medium text-lg">
-            Espacio socio recreativo y cultural, dependiente de la caja de jubilaciones, pensiones y retiros de la provincia de córdoba
-          </p>
-          <p className="font-medium text-lg">
-            Los talleres que brinda se pueden cursar de manera presencial o virtual
+            Espacio socio recreativo y cultural, dependiente de la caja de jubilaciones, pensiones y retiros de la provincia de córdoba.
           </p>
         </div>
       </div>

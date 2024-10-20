@@ -1,10 +1,9 @@
+import IlliaIcono from "../assets/img/icons/logoillia.png"
 import { useState } from "react"
+import { IlliaCursos } from "./IlliaCursos.jsx"
 import { InfoContacto } from "./InfoContacto.jsx"
 import { RedesSociales } from "./RedesSociales.jsx"
-import { MapPin } from "lucide-react"
-import { Globe } from "lucide-react"
-import { Phone } from "lucide-react"
-import { IlliaCursos } from "./IlliaCursos.jsx"
+import { MapPin, Globe, Phone } from "lucide-react"
 
 export function ElIllia () {
   const [activeInfo, setActiveInfo] = useState('cursos')
@@ -60,7 +59,7 @@ export function ElIllia () {
       <div className="h-[450px] w-full bg-cepram bg-no-repeat bg-cover bg-center absolute top-0 -z-10"></div>
       <div className="h-[450px] bg-elIllia-color flex items-center justify-center gap-10">
         <div className="mx-10 bg-white px-10 py-6 rounded-3xl">
-          <img src="/logoillia.png" alt="Icono de CEPRAM" height="180" width="180" />
+          <img src={IlliaIcono} alt="Icono de CEPRAM" height={180} width={180} />
         </div>
         <div className="w-[650px]">
           <h2 className="text-4xl uppercase text-center mb-8 font-bold">El Illia - espacio recreativo y cultural</h2>

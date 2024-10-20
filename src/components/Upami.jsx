@@ -1,3 +1,4 @@
+import UpamiIcono from '../assets/img/icons/Icono-pami.svg'
 import { useState } from "react"
 import { RedesSociales } from "./RedesSociales.jsx"
 import { InfoContactoUpami } from "./InfoContactoUpami.jsx"
@@ -59,7 +60,7 @@ export function Upami () {
       <div className="h-[350px] w-full bg-cepram bg-no-repeat bg-cover bg-center absolute top-0 -z-10"></div>
       <div className="h-[350px] bg-upami-color flex items-center justify-center gap-10">
         <div className="mx-10 flex items-center gap-4">
-          <img src="/Icono-pami.svg" alt="Icono de CEPRAM" height="100" width="100" />
+          <img src={UpamiIcono} alt="Icono de CEPRAM" height={100} width={100} />
           <h1 className="text-darkBlue text-5xl font-bold">UPAMI</h1>
         </div>
         <div className="w-[650px]">
