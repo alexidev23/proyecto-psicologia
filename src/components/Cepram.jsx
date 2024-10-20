@@ -1,4 +1,4 @@
-import CepramIcono from "../assets/img/icons/cepram-icono.png"
+import CepramIcono from "../assets/img/icons/cepram-icono.svg"
 import { useState } from "react"
 import { CepramCursos } from "./CepramCursos.jsx"
 import { InfoContacto } from "./InfoContacto.jsx"
@@ -58,9 +58,9 @@ export function Cepram () {
       <div className="h-[350px] w-full bg-cepram bg-no-repeat bg-cepram-size bg-bottom absolute top-0 -z-10"></div>
       <div className="h-[350px] bg-cepram-color flex items-center justify-center gap-10">
         <div className="mx-10">
-          <img src={CepramIcono} alt="Icono de CEPRAM" height={180} width={180} />
+          <img src={CepramIcono} alt="Icono de CEPRAM" height={220} width={220} />
         </div>
-        <div className="w-[650px]">
+        <div className="w-[650px] text-white">
           <h2 className="text-4xl uppercase text-center mb-8 font-bold">Centro de promoción del adulto mayor</h2>
           <p className="font-medium text-lg">
             Espacio socio recreativo y cultural, dependiente de la caja de jubilaciones, pensiones y retiros de la provincia de córdoba.
