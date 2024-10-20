@@ -37,22 +37,19 @@ export function Cepram () {
       id: 1,
       icon: <MapPin />,
       title: 'David Luque 430 Barrio General Paz',
-      url: 'https://maps.app.goo.gl/dpk9D6atd48iHYTq6',
-      color: '#3b0764'
+      url: 'https://maps.app.goo.gl/dpk9D6atd48iHYTq6'
     }, 
     {
       id: 2,
       icon: <Globe />,
       title: 'https://cepram.org.ar',
-      url: 'https://cepram.org.ar/',
-      color: '#3b0764'
+      url: 'https://cepram.org.ar/'
     },
     {
       id: 3,
       icon: <Phone />,
       title: '351-8183 922',
-      url: 'tel:+543518183922',
-      color: '#3b0764'
+      url: 'tel:+543518183922'
     }
   ]
 

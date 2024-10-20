@@ -1,7 +1,7 @@
 import IlliaIcono from "../assets/img/icons/logoillia.png"
 import { useState } from "react"
 import { IlliaCursos } from "./IlliaCursos.jsx"
-import { InfoContacto } from "./InfoContacto.jsx"
+import { InfoContactoIllia } from "./infoContactoIllia.jsx"
 import { RedesSociales } from "./RedesSociales.jsx"
 import { MapPin, Globe, Phone } from "lucide-react"
 import { FaWhatsapp } from "react-icons/fa"
@@ -38,35 +38,31 @@ export function ElIllia () {
       id: 1,
       icon: <MapPin />,
       title: 'Avenida General Paz 539',
-      url: 'https://maps.app.goo.gl/2bsGLCNpnMWxk5zb6',
-      color: '#14532d'
+      url: 'https://maps.app.goo.gl/2bsGLCNpnMWxk5zb6'
     },
     {
       id: 2,
       icon: <Globe />,
       title: 'https://elillia.cba.gov.ar/Portal/',
-      url: 'https://elillia.cba.gov.ar/Portal/',
-      color: '#14532d'
+      url: 'https://elillia.cba.gov.ar/Portal/'
     },
     {
       id: 3,
       icon: <Phone />,
       title: '0810 122 2252 (Marcar la opción 4)',
-      url: 'tel:+5408101222252',
-      color: '#14532d'
+      url: 'tel:+5408101222252'
     },
     {
       id: 4,
       icon: <FaWhatsapp size={30} />,
       title: '3518082187',
-      url: 'tel:+543518082187',
-      color: '#14532d'
+      url: 'tel:+543518082187'
     }
   ]
 
   const infoContent = {
     cursos: <IlliaCursos />,
-    infoContacto: <InfoContacto contactos={infoContacto} />,
+    infoContacto: <InfoContactoIllia contactos={infoContacto} />,
     redesSociales: <RedesSociales redes={redesSociales} />
   }
   return (
