@@ -20,7 +20,7 @@ export function InfoContactoUpami () {
                 Página PAMI
               </a>
               <div>
-                (Ingresando a la página oficial de PAMI, a través de la opción servicios, luego en Actividades y Programas preventivos, por último haciendo click en Cursos Universitarios UPAMI)
+                (Se accede ingresando a la página oficial de PAMI, a través de la opción servicios, luego en Actividades y Programas preventivos, por último haciendo click en Cursos Universitarios UPAMI)
               </div>
             </div>
             <div className="flex flex-col lg:flex-row gap-4 lg:gap-0">
