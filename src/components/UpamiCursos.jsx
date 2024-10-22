@@ -48,7 +48,7 @@ export function UpamiCursos() {
       cursos: [
         {
           icon: <Guitar />,
-          name: "Folklore"
+          name: "Folclore"
         }, 
         {
           icon: <IoMusicalNotesOutline />,
@@ -154,10 +154,19 @@ export function UpamiCursos() {
       nombre: "Otros",
       icon: Users,
       cursos: [
-        {name: "Servicios y prestaciones de PAMI"}, 
-        {name: "Derechos de las personas mayores"}, 
-        {name: "Ciudadanía"}, 
-        {name: "Fortalecimiento de las organizaciones de las personas mayores"}]
+        {
+          name: "Servicios y prestaciones de PAMI"
+        }, 
+        {
+          name: "Derechos de las personas mayores"
+        }, 
+        {
+          name: "Ciudadanía"
+        }, 
+        {
+          name: "Fortalecimiento de las organizaciones de las personas mayores"
+        }
+      ]
     },
     {
       nombre: "Gimnasia",
@@ -217,7 +226,7 @@ export function UpamiCursos() {
           <a href='https://comunidad.pami.org.ar/talleresycursos/inicio' target="_blank" rel="noopener noreferrer" className="bg-darkBlue text-white p-4 h-20 rounded-full flex items-center justify-center w-full">
             <h2 className="text-2xl font-semibold flex items-center gap-2">
               <Plus size={30} />
-              Mas informacion
+              Más información
             </h2>
           </a>
         </div>

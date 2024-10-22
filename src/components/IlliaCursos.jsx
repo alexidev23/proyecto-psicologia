@@ -185,7 +185,7 @@ export function IlliaCursos() {
         }, 
         {
           icon: <CirclePlus />,
-          name:"Folklore"
+          name:"Folclore"
         }, 
         {
           icon: <CirclePlus />,
@@ -282,7 +282,7 @@ export function IlliaCursos() {
           <a href='https://elillia.cba.gov.ar/Portal/Cursos' target="_blank" rel="noopener noreferrer" className="bg-darkGreen text-white p-4 h-20 rounded-full flex items-center justify-center w-full">
             <h2 className="text-2xl font-semibold flex items-center gap-2">
               <Plus size={30} />
-              Mas informacion
+              Más información
             </h2>
           </a>
         </div>

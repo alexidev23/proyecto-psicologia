@@ -8,32 +8,32 @@ export function InfoContactoUpami () {
       <h3 className="font-medium">Se puede contactar de dos maneras, tanto a través de PAMI:</h3>
       <div className="px-6">
         <h4 className="font-bold text-2xl mt-4">PAMI:</h4>
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-2">
           <a href="https://maps.app.goo.gl/19THgGU2uAF8kwJn7" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 mt-4 hover:text-blue-600">
             <MapPin />
             <span>General paz 370 (Prestaciones sociales en planta baja)</span>
           </a>
           <div>
-            <div className="flex flex-col lg:flex-row gap-4">
+            <div className="flex flex-col lg:flex-row gap-4 lg:gap-0">
               <a href="https://www.pami.org.ar/" target="_blank" rel="noopener noreferrer" className="flex flex-col lg:flex-row gap-2 items-center hover:text-blue-600 lg:w-[200px]">
                 <Globe />
-                Pagina PAMI
+                Página PAMI
               </a>
               <div>
-                (Ingresando a la pagina oficial de PAMI, se accede a través de la opción servicios, luego en Actividades y Programas preventivos; por último haciendo click en Cursos Universitarios UPAMI)
+                (Ingresando a la página oficial de PAMI, se accede a través de la opción servicios, luego en Actividades y Programas preventivos; por último haciendo click en Cursos Universitarios UPAMI)
               </div>
             </div>
-            <div className="flex flex-col lg:flex-row gap-4">
+            <div className="flex flex-col lg:flex-row gap-4 lg:gap-0">
               <a href="https://www.pami.org.ar/talleresycursos/cursos-upami" target="_blank" rel="noopener noreferrer" className="flex flex-col lg:flex-row gap-2 items-center hover:text-blue-600 text-center">
                 <Globe />
-                Pagina UPAMI
+                Página UPAMI
               </a>
-              <div>
-                (ingresando directamente a este link) 
+              <div className="ml-2">
+                (Ingresando directamente a este link) 
               </div>
             </div>
           </div>
-          <a href="tel:+543514131600" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 mt-4 hover:text-blue-600">
+          <a href="tel:+543514131600" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 mt-2 hover:text-blue-600">
             <Phone />
             <span>3514131600</span>
           </a>
@@ -42,7 +42,7 @@ export function InfoContactoUpami () {
 
       <div className="mt-6 px-6">
         <p className="font-medium">
-          Como también a través del PROGRAMA PERSONAS MAYORES DE LA SECRETARÍA DE EXTENSIÓN DE LA UNC UNC (proyecto de fortalecimiento institucional, de la secretaría de extensión universitaria de la UNC):
+          Como también a través del PROGRAMA PERSONAS MAYORES DE LA SECRETARÍA DE EXTENSIÓN DE LA UNC (proyecto de fortalecimiento institucional, de la secretaría de extensión universitaria de la UNC):
         </p>
         <div className="mt-4">
           <a href="https://maps.app.goo.gl/w6ADCXrJ6Wn3eC5N6" target="_blank" rel="noopener noreferrer" className="flex flex-col lg:flex-row items-center gap-2 hover:text-blue-600">

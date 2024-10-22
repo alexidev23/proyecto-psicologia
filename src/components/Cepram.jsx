@@ -69,7 +69,7 @@ export function Cepram () {
         <div className="lg:w-[650px] text-white">
           <h2 className="text-2xl lg:text-4xl uppercase text-center mb-8 font-bold">Centro de promoción del adulto mayor</h2>
           <p className="font-medium text-lg px-6 lg:px-0">
-            Espacio socio recreativo y cultural, dependiente de la caja de jubilaciones, pensiones y retiros de la provincia de córdoba.
+            Espacio socio recreativo y cultural, dependiente de la caja de jubilaciones, pensiones y retiros de la provincia de Córdoba.
           </p>
         </div>
       </div>
