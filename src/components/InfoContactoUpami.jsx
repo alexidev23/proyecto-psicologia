@@ -20,7 +20,7 @@ export function InfoContactoUpami () {
                 Página PAMI
               </a>
               <div>
-                (Ingresando a la página oficial de PAMI, se accede a través de la opción servicios, luego en Actividades y Programas preventivos; por último haciendo click en Cursos Universitarios UPAMI)
+                (Ingresando a la página oficial de PAMI, a través de la opción servicios, luego en Actividades y Programas preventivos, por último haciendo click en Cursos Universitarios UPAMI)
               </div>
             </div>
             <div className="flex flex-col lg:flex-row gap-4 lg:gap-0">
@@ -29,7 +29,7 @@ export function InfoContactoUpami () {
                 Página UPAMI
               </a>
               <div className="ml-2">
-                (Ingresando directamente a este link) 
+                (Se accede ingresando directamente a este link) 
               </div>
             </div>
           </div>
@@ -47,7 +47,7 @@ export function InfoContactoUpami () {
         <div className="mt-4">
           <a href="https://maps.app.goo.gl/w6ADCXrJ6Wn3eC5N6" target="_blank" rel="noopener noreferrer" className="flex flex-col lg:flex-row items-center gap-2 hover:text-blue-600">
             <MapPin />
-            <span>Pabellón Argentina (Primer piso, a la derecha)</span>
+            <span>Pabellón Argentina (Primer piso, ala derecha)</span>
           </a>
           <a href="https://pfi.seu.unc.edu.ar/" target="_blank" rel="noopener noreferrer" className="flex flex-col lg:flex-row items-center gap-2 mt-4 hover:text-blue-600">
             <Globe />

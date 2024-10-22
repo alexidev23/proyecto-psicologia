@@ -75,10 +75,10 @@ export function ElIllia () {
         <div className="lg:w-[650px] text-white">
           <h2 className="text-2xl lg:text-4xl uppercase text-center mb-8 font-bold px-4 lg:px-0">El Illia - espacio recreativo y cultural</h2>
           <p className="font-medium text-lg px-5 lg:px-0">
-            Espacio socio recreativo y cultural, dependiente de la Caja de Jubilaciones, Pensiones y Retiros de la Provincia de Córdoba y el Ministerio de Economía y Gestión Pública, en donde se brindan actividades dedicadas al adulto mayor Es un sitio que brinda un ambiente de contención para el desarrollo del adulto mayor, a través de actividades recreativas y culturales de carácter gratuito, desde una visión contextualizada;  promoviendo el envejecimiento y la vejez digna y activa.
+            Espacio socio recreativo y cultural, dependiente de la Caja de Jubilaciones, Pensiones y Retiros de la Provincia de Córdoba y el Ministerio de Economía y Gestión Pública, en donde se brindan actividades dedicadas al adulto mayor. 
           </p>
           <p className="font-medium text-lg px-5 lg:px-0">
-            Cuenta con el programa saber mayor, destinado a personas que deseen comenzar o finalizar sus estudios primarios
+            Es un sitio que brinda un ambiente de contención para el desarrollo del adulto mayor, a través de actividades recreativas y culturales de carácter gratuito, desde una visión contextualizada;  promoviendo el envejecimiento y la vejez digna y activa. Cuenta con el programa saber mayor, destinado a personas que deseen comenzar o finalizar sus estudios primarios
           </p>
         </div>
       </div>

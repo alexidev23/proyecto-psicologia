@@ -16,7 +16,7 @@ export function Header () {
           La finalidad de esta página está destinada a brindar información general sobre talleres y capacitaciones para las personas mayores que se dictan en diferentes instituciones en la ciudad de Córdoba capital.
         </p>
         <p className="mb-2">
-          El objetivo es promover el bienestar psicológico y social de los adultos mayores, a través del fortalecimiento de lazos comunitarios con solidaridad y comprensión mutua; mejoras de sus condiciones de ciudadanía, de su calidad de vida e inclusión.
+          El objetivo es promover el bienestar psicológico y social de los adultos mayores, a través del fortalecimiento de lazos comunitarios con solidaridad y comprensión mutua, mejoras de sus condiciones de ciudadanía, de su calidad de vida e inclusión.
         </p>
         <p>
           A continuación podrá ver distintos talleres de algunas instituciones donde aprenderá nuevas habilidades y participará de un espacio de recreación y socialización.
